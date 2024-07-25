@@ -1,0 +1,80 @@
+/*
+
+CSS rules you may need for reference:
+
+- font-family
+    - Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+*/
+
+body {
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 20px;
+}
+header {
+  margin: 10px 30px;
+  padding: 1px;
+  border-radius: 5px;
+  color: white;
+  background-color: #1e90ff;
+}
+main {
+  margin: 15px 40px;
+  padding: 20px;
+  border-radius: 5px;
+}
+section {
+  padding: 20px 20px;
+  background-color: #f0f0eff9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+h2 {
+  border-left: 2px solid #1e90ff;
+  border-bottom: 2px solid #1e90ff;
+  padding: 0 10px;
+  padding-bottom: 20px;
+}
+table {
+  margin-bottom: 20px;
+}
+th {
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: white;
+}
+td {
+  padding: 10px 20px;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+footer {
+  color: rgb(200, 199, 199);
+}
+img {
+  margin-top: 10px;
+  border-radius: 10px;
+}
+/* Write your CSS code here */
